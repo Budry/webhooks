@@ -1,10 +1,157 @@
+---
+__Advertisement :)__
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet at justo sed porttitor. Morbi tempor arcu vitae urna lacinia aliquet. Vivamus fringilla mattis posuere. Suspendisse nec mi et nunc blandit lobortis. **Aliquam sed mauris auctor**, _eleifend nisi a_, blandit lacus. Nullam varius eget diam et auctor. Vivamus ac magna sed lectus mattis efficitur ut vitae ipsum. Quisque eu neque quis orci mattis consequat. Phasellus placerat magna in eros pulvinar, sit amet lacinia metus placerat. Fusce semper tellus ligula, non blandit nulla laoreet a. Donec porttitor enim et justo iaculis pulvinar. Vivamus euismod elit id ipsum ornare, tincidunt feugiat orci rutrum. Nulla facilisi. Mauris rutrum nisi quis libero varius tincidunt. Suspendisse sed placerat velit.
+- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+  resize in browser.
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
 
-> Sed sit amet ante vel dui egestas cursus a eget felis. Aliquam non eros orci. Duis nec felis dolor. Ut at nisl ut metus sagittis fringilla ac ornare ipsum. Nullam orci augue, consectetur at fringilla nec, consectetur a eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ac nisl vel tellus semper lacinia. Nulla facilisi. Nunc nec pharetra velit. Cras sem odio, cursus quis fermentum ut, viverra sed augue. Suspendisse at accumsan nibh, id congue dolor. In tellus ante, sagittis ac tempus nec, venenatis sit amet metus.
+You will like those projects!
 
-Integer sit amet [suscipit arcu](https://example.com). Pellentesque et purus non elit dictum tincidunt ut ac metus. Etiam eu nisl commodo tortor fringilla mattis imperdiet eget leo. Morbi mattis lacus facilisis pharetra vulputate. Suspendisse cursus velit eleifend dignissim laoreet. Integer sed erat nulla. Duis eget eros blandit velit eleifend fringilla et bibendum velit. Praesent imperdiet congue efficitur. Quisque pretium nulla eget arcu commodo, sed dignissim felis hendrerit. Phasellus egestas quis nulla id fringilla. Aliquam vitae felis sagittis, gravida libero et, eleifend arcu. Morbi et mi aliquam, dignissim diam nec, ornare velit. Etiam euismod dui at justo pellentesque vestibulum. Nulla facilisi.
+---
 
-Fusce metus felis, pellentesque ac varius et, pharetra sed dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non eleifend sem, sit amet tristique felis. Praesent consectetur lacus a lobortis rutrum. Cras aliquam luctus nisl a vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse maximus, nibh vel semper tincidunt, tortor leo vehicula tortor, sed imperdiet ex arcu vel metus. Sed commodo porta diam, non finibus metus aliquet sed. Praesent quis nisl dolor. Fusce porta magna non arcu pulvinar bibendum.
+# h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-Phasellus semper, tortor imperdiet fringilla pulvinar, odio orci accumsan odio, et blandit dolor nulla ut dui. Nam laoreet eros nisl, eu euismod massa vulputate in. Nam accumsan mi eu consequat mattis. Nullam quis nisi auctor, dictum nunc nec, finibus velit. Maecenas tincidunt feugiat condimentum. Morbi lacinia fringilla mauris, sed lobortis tortor efficitur vel. Nulla laoreet bibendum dignissim. Proin eros elit, cursus ut laoreet at, elementum ac risus. Proin lobortis placerat tortor, sed molestie diam semper ut. Sed et leo accumsan, rhoncus nulla vitae, tempus dui. Mauris eget consequat augue. Sed quam augue, vehicula non nunc a, aliquet sodales leo. Curabitur vestibulum, sem sed interdum feugiat, neque metus faucibus tortor, in aliquet metus justo eget mi.
+
+## Horizontal Rules
+
+___
+
+---
+
+***
+
+
+## Typographic replacements
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+"Smartypants, double quotes" and 'single quotes'
+
+
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+
+
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+## Images
+
+![Minion](./assets/minion.png)
+![Stormtroopocat](./assets/stormtroopocat.jpg "The Stormtroopocat")
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: ./assets/dojocat.jpg  "The Dojocat"
