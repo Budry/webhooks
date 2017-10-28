@@ -118,6 +118,43 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
+```typescript
+/**
+ * This file is part of the blog.zaruba-ondrej.cz package.
+ *
+ * (c) Ondřej Záruba <info@zaruba-ondrej.cz>
+ *
+ * For the full copyright and license information, please view the license.md
+ * file that was distributed with this source code.
+ */
+
+import * as isUrl from "is-url";
+import {ConfigObject} from "../configs/ConfigObject";
+
+export const parseArticleLinks = (content: string, directory: string): string => {
+
+    const config: ConfigObject = require('../../configs/app');
+    const matches = config.articles.source.match(/\.com:(.*)\.git/);
+    if (matches.length === 0) {
+        throw new Error('Invalid repository')
+    }
+    const repo_path = matches[1];
+
+    let new_content = content;
+
+    const image_regex = new RegExp(/!\[[^\[]+\]\(([^\s+]+)[^\(]*\)/g);
+    let match;
+    while ((match = image_regex.exec(content)) !== null) {
+        if (isUrl(match[1])) {
+            continue;
+        }
+        new_content = new_content.replace(match[1], `https://github.com/${repo_path}/blob/master/${directory}/${match[1]}?raw=true`);
+    }
+
+    return new_content;
+};
+```
+
 ## Tables
 
 | Option | Description |
