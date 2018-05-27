@@ -110,7 +110,7 @@ Sample text here...
 
 Syntax highlighting
 
-``` js
+```typescript
 var foo = function (bar) {
   return bar++;
 };
