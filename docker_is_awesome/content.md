@@ -108,7 +108,7 @@ Block code "fences"
 Sample text here...
 ```
 
-Syntax highlighting
+Syntax highlightingd
 
 ```typescript
 var foo = function (bar) {
