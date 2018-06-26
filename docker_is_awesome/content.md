@@ -28,7 +28,7 @@ ___
 ***
 
 
-![img]((assets/small.png)
+![img](assets/small.png)
 
 
 ## Typographic replacements
