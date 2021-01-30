@@ -46,7 +46,7 @@ export default MyApp;
 
 Integer ornare iaculis odio non sodales. Vestibulum imperdiet feugiat interdum. Nulla sem ipsum, fringilla in accumsan vitae, sagittis vestibulum justo. *Aliquam* non dolor accumsan, congue nisi in, **blandit** urna. Praesent convallis, purus quis rhoncus venenatis, ante ligula rhoncus sapien, non ultricies mauris felis ut nisi. Mauris a massa venenatis, gravida turpis nec, varius metus. Donec erat mauris, feugiat et sem quis, cursus tincidunt felis. Sed id porta tortor. Cras faucibus iaculis massa. [Sed porttitor](https://google.com) porttitor posuere. Donec quis est a neque interdum cursus. Nullam risus velit, ultricies vel neque sed, faucibus mattis enim. Integer ultricies turpis iaculis sapien egestas venenatis. Aliquam nec fringilla quam. Morbi ut magna eget elit pretium blandit eget id eros. Donec urna magna, sagittis vitae nisl id, viverra interdum velit.
 
-![Obrázek](assets/dojocat.jpg)
+![Obrázek](assets/dojocat.jpg "Popis")
 
 #### Heading 4
 
