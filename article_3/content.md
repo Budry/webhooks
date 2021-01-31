@@ -1,3 +1,10 @@
+---
+slug: testovaci-clanek
+title: Nový testovcí článek
+image: assets/minion.png
+tags: [tag, tag2]
+---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet lacus vitae odio pharetra facilisis. Suspendisse eget sodales ante, vel pellentesque massa. Integer non accumsan tellus. Praesent ut ornare purus. Cras maximus, lacus vel tincidunt malesuada, dui lacus venenatis neque, id mattis mauris magna ac metus. Sed ac orci turpis. Phasellus sollicitudin odio nec scelerisque tempus. Aenean condimentum ipsum vel quam rhoncus, ac convallis est feugiat. Nulla facilisi. Sed volutpat ante non metus volutpat, in efficitur massa sagittis. Donec id auctor est.
 
 <!-- Preview -->
