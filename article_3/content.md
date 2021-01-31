@@ -1,5 +1,5 @@
 ---
-slug: testovaci-clanek
+slug: novy-testovaci-clanek
 title: Nový testovcí článek
 image: assets/minion.png
 tags: [tag, tag2]
