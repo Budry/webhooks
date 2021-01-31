@@ -1,7 +1,7 @@
 ---
 slug: novy-testovaci-clanek
 title: Nový testovcí článek
-image: assets/minion.png
+image: /assets/image.jpg
 tags: [tag, tag2]
 ---
 
